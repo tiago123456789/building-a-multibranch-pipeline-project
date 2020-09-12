@@ -35,7 +35,7 @@ pipeline {
                 branch 'master'
             }
             steps {
-                sh './jenkins/scripts/deliver-for-production.sh'
+                sh './jenkins/scripts/deploy-for-production.sh'
                 sh './jenkins/scripts/kill.sh'
             } 
         }
