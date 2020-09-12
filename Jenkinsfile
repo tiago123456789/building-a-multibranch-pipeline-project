@@ -28,7 +28,7 @@ pipeline {
             steps {
                 sh './jenkins/scripts/deliver-for-production.sh'
                 sh './jenkins/scripts/kill.sh'
-            }
+            } 
         }
     }
 }
